@@ -23,6 +23,7 @@ For this project, I used open source EuroSAT Sentinel-2 satellite images from th
 - Residential
 - River
 - Sea / Lake
+
 Each multispectral image consists of 13 different color bands that represent different wavelengths of light/color and different resolutions. These different light bands help distinguish parts of the landscape that reflect certain types of light in particular ways. Since most images don’t include special bands like Vegetation Red Edge, Coastal aerosol, or SWIR, for this project I chose to only use the red, green, and blue bands in an effort to make my model generalizable to most images.
 
 ### Project Plan
