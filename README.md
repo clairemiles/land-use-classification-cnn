@@ -1,5 +1,5 @@
 ## Land Use Classification using Convolutional Neural Networks
-<img src='homes.png'> 
+<img src='earths.png'> 
 
 ### Problem Statement:
 Satellite imagery can help us find solutions to the growing number of environmental problems that we face today. It allows us to not only get a bird’s eye view of what’s around us, but also uncovers parts of the world that are rarely seen. Tapping into the potential of categorizing land cover and land use around the world means that humans can more efficiently make use of natural resources, hopefully lowering cases of waste and deprivation. But despite its potential to be incredibly useful, satellite data is massive and confusing, and making sense of it requires complex analysis. 
@@ -23,6 +23,7 @@ For this project, I used open source EuroSAT Sentinel-2 satellite images from th
 - Residential
 - River
 - Sea / Lake
+
 Each multispectral image consists of 13 different color bands that represent different wavelengths of light/color and different resolutions. These different light bands help distinguish parts of the landscape that reflect certain types of light in particular ways. Since most images don’t include special bands like Vegetation Red Edge, Coastal aerosol, or SWIR, for this project I chose to only use the red, green, and blue bands in an effort to make my model generalizable to most images.
 
 ### Project Plan
