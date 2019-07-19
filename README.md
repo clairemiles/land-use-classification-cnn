@@ -28,11 +28,11 @@ Each multispectral image consists of 13 different color bands that represent dif
 
 ### Project Plan
 This project includes notebooks for all stages in the process: 
-1. [Data preparation]()
-1. [Exploratory data analysis]()
-1. [Convolutional neural network model]()
-1. [CNN with model tuning]()
+1. [Data preparation](https://github.com/clairemiles/land-use-classification-cnn/blob/master/0_build_rgb_dataset.ipynb)
+1. [Exploratory data analysis](https://github.com/clairemiles/land-use-classification-cnn/blob/master/1_exploratory_data_analysis.ipynb)
+1. [Convolutional neural network model](https://github.com/clairemiles/land-use-classification-cnn/blob/master/2_cnn_model.ipynb)
+1. [CNN with model tuning](https://github.com/clairemiles/land-use-classification-cnn/blob/master/3_cnn_tuned.ipynb)
 
 Using keras as the main machine learning library for this project, I crafted a RGB jpeg dataset from thousands of thirteen-band tif files, and used transfer learning, data augmentation, and regularization to build three different models with increasing performance.
 
-Read the [final project report here](), and view the [slides here]().
+Read the [final project report here](https://github.com/clairemiles/land-use-classification-cnn/blob/master/labeling_land_report.pdf), and view the [slides here](https://github.com/clairemiles/land-use-classification-cnn/blob/master/labeling_land_slides.pdf).
